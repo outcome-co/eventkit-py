@@ -16,7 +16,7 @@ python = "~3.8.6"
 pydantic = "^1.7.2"
 requests = "^2.24.0"
 lark-parser = "^0.10.1"
-outcome-utils = "^4.14.1"
+outcome-utils = "^4.16.1"
 pendulum = "^2.1.2"
 
 [tool.poetry.dev-dependencies]
