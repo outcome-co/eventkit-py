@@ -1,0 +1,19 @@
+// This is the grammar for a MIME-type
+// https://en.wikipedia.org/wiki/Media_type
+start: type "/" subtype parameter*
+
+TYPE: /[a-zA-Z]+/
+SUBTYPE: /[a-zA-Z\]+/
+PARAM_KEY: /[a-zA-Z]+/
+PARAM_VALUE: /[^;=\s]+/
+
+
+type: TYPE
+
+subtype: subtype_root subtype_tree* subtype_suffix?
+subtype_root: TYPE
+subtype_tree: "." TYPE
+subtype_suffix: "+" TYPE
+
+parameter: whitespace ";" whitespace PARAM_KEY "=" PARAM_VALUE
+whitespace: " "*

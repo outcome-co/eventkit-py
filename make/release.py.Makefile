@@ -4,7 +4,7 @@ MK_RELEASE_PY=1
 include make/env.Makefile
 include make/ci.py.Makefile
 
-PYPI_NAME = $(shell $(READ_PYPROJECT_KEY) pypi.name)
+PYPI_NAME := $(shell $(READ_PYPROJECT_KEY) pypi.name)
 PYPI_URL = $(shell $(READ_PYPROJECT_KEY) pypi.url)
 
 # poetry expects the environment variables to match the name of

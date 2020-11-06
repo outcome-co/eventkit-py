@@ -37,8 +37,10 @@ ignore = W503, # Allow line break before binary operator
          WPS431, # Allow nested classes
          WPS437, # Allow usage of protected attribute : _state
          WPS604, # Allow usage of `pass` or `global var` inside classes
+         WPS226, # Constant over-use
 
 per-file-ignores = test/**.py: WPS442, WPS226, WPS219, S101, D100, WPS211, WPS609, WPS118
+                   src/outcome/eventkit/types.py: WPS200
 # WPS442, # pytest fixtures require shadowing
 # WPS211, # Too many arguments
 # WPS226, # Allow several usage of string constants (> 3)
@@ -47,6 +49,7 @@ per-file-ignores = test/**.py: WPS442, WPS226, WPS219, S101, D100, WPS211, WPS60
 # D100, # Don't need docstrings in tests
 # WPS609, # Direct magic method usage
 # WPS118, # Name too long
+# WPS200, # High Jones complexity
 
 
 
