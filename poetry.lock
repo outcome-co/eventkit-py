@@ -655,7 +655,7 @@ i18n = ["Babel (>=0.8)"]
 
 [[package]]
 name = "lark-parser"
-version = "0.10.1"
+version = "0.11.1"
 description = "a modern parsing library"
 category = "main"
 optional = false
@@ -1359,7 +1359,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "~3.8.6"
-content-hash = "cc8ab2d9f3cbcdbcb4e3868dc215040dfb26e77aa4fbc88f22dc7302161810a4"
+content-hash = "08f0dd0ede61342827ccdfbeb9fe002aef91f692f5f1a5cdf028c1224a894547"
 
 [metadata.files]
 appdirs = [
@@ -1622,7 +1622,8 @@ jinja2 = [
     {file = "Jinja2-2.11.2.tar.gz", hash = "sha256:89aab215427ef59c34ad58735269eb58b1a5808103067f7bb9d5836c651b3bb0"},
 ]
 lark-parser = [
-    {file = "lark-parser-0.10.1.tar.gz", hash = "sha256:42f367612a1bbc4cf9d8c8eb1b209d8a9b397d55af75620c9e6f53e502235996"},
+    {file = "lark-parser-0.11.1.tar.gz", hash = "sha256:20bdefdf1b6e9bcb38165ea5cc4f27921a99c6f4c35264a3a953fd60335f1f8c"},
+    {file = "lark_parser-0.11.1-py2.py3-none-any.whl", hash = "sha256:8b747e1f544dcc2789e3feaddd2a50c6a73bed69d62e9c69760c1e1f7d23495f"},
 ]
 makefun = [
     {file = "makefun-1.9.4-py2.py3-none-any.whl", hash = "sha256:0d25e38c0b63170cfa0d1f7c6a7d43aba76d3aa75be04cd7070366b488080205"},
