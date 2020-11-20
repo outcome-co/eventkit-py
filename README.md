@@ -1,5 +1,5 @@
 # eventkit-py
-![ci-badge](https://github.com/outcome-co/eventkit-py/workflows/Release/badge.svg?branch=v0.2.7) ![version-badge](https://img.shields.io/badge/version-0.2.7-brightgreen)
+![ci-badge](https://github.com/outcome-co/eventkit-py/workflows/Release/badge.svg?branch=v0.2.8) ![version-badge](https://img.shields.io/badge/version-0.2.8-brightgreen)
 
 A toolkit for emitting and handling events, following the CloudEvent spec.
 
