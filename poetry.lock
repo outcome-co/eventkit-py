@@ -770,7 +770,7 @@ wemake-python-styleguide = ">=0.14.0,<0.15.0"
 
 [[package]]
 name = "outcome-utils"
-version = "4.17.2"
+version = "4.17.3"
 description = "A collection of python utils."
 category = "main"
 optional = false
@@ -1701,8 +1701,8 @@ outcome-devkit = [
     {file = "outcome_devkit-3.4.2-py3-none-any.whl", hash = "sha256:0727f56ca4dfc689f3e1d48c936612d7c765ce6d80cbce5cc13cc64a757f6289"},
 ]
 outcome-utils = [
-    {file = "outcome-utils-4.17.2.tar.gz", hash = "sha256:168eaa50a62b28566e1b396f76a90b56ac45610825b3f5d5b63f476e6839e7cf"},
-    {file = "outcome_utils-4.17.2-py3-none-any.whl", hash = "sha256:e47320a6c0fe032f3ce778964297aa3993ebd2901d802d7de1063eb27be2b5ee"},
+    {file = "outcome-utils-4.17.3.tar.gz", hash = "sha256:97b098c84d0883526c3eb1357a07403b1aa1432dd678bcbf2e5489a5aeb8cb4a"},
+    {file = "outcome_utils-4.17.3-py3-none-any.whl", hash = "sha256:c5876e94ef648683f7316462c8df3b03cb6d4cbc32c467bcdd7ce6c84011731f"},
 ]
 packaging = [
     {file = "packaging-20.4-py2.py3-none-any.whl", hash = "sha256:998416ba6962ae7fbd6596850b80e17859a5753ba17c32284f67bfff33784181"},
@@ -1864,6 +1864,8 @@ pyyaml = [
     {file = "PyYAML-5.3.1-cp37-cp37m-win_amd64.whl", hash = "sha256:73f099454b799e05e5ab51423c7bcf361c58d3206fa7b0d555426b1f4d9a3eaf"},
     {file = "PyYAML-5.3.1-cp38-cp38-win32.whl", hash = "sha256:06a0d7ba600ce0b2d2fe2e78453a470b5a6e000a985dd4a4e54e436cc36b0e97"},
     {file = "PyYAML-5.3.1-cp38-cp38-win_amd64.whl", hash = "sha256:95f71d2af0ff4227885f7a6605c37fd53d3a106fcab511b8860ecca9fcf400ee"},
+    {file = "PyYAML-5.3.1-cp39-cp39-win32.whl", hash = "sha256:ad9c67312c84def58f3c04504727ca879cb0013b2517c85a9a253f0cb6380c0a"},
+    {file = "PyYAML-5.3.1-cp39-cp39-win_amd64.whl", hash = "sha256:6034f55dab5fea9e53f436aa68fa3ace2634918e8b5994d82f3621c04ff5ed2e"},
     {file = "PyYAML-5.3.1.tar.gz", hash = "sha256:b8eac752c5e14d3eca0e6dd9199cd627518cb5ec06add0de9d32baeee6fe645d"},
 ]
 regex = [
