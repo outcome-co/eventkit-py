@@ -770,11 +770,11 @@ wemake-python-styleguide = ">=0.14.0,<0.15.0"
 
 [[package]]
 name = "outcome-utils"
-version = "4.17.3"
+version = "4.18.2"
 description = "A collection of python utils."
 category = "main"
 optional = false
-python-versions = ">=3.8.6,<3.9.0"
+python-versions = ">=3.8,<3.9"
 
 [package.dependencies]
 asgiref = ">=3.2.10,<4.0.0"
@@ -784,6 +784,7 @@ colored = ">=1.4.2,<2.0.0"
 jinja2 = ">=2.11.2,<3.0.0"
 makefun = ">=1.9.3,<2.0.0"
 pyfakefs = ">=4.1.0,<5.0.0"
+python-dotenv = ">=0.15.0,<0.16.0"
 requests = ">=2.24.0,<3.0.0"
 rich = ">=6.2,<10.0"
 semver = ">=2.10.2,<3.0.0"
@@ -1082,6 +1083,17 @@ python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,>=2.7"
 
 [package.dependencies]
 six = ">=1.5"
+
+[[package]]
+name = "python-dotenv"
+version = "0.15.0"
+description = "Add .env support to your django/flask apps in development and deployments"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.extras]
+cli = ["click (>=5.0)"]
 
 [[package]]
 name = "pytzdata"
@@ -1701,8 +1713,8 @@ outcome-devkit = [
     {file = "outcome_devkit-3.4.3-py3-none-any.whl", hash = "sha256:03747431567ecb18f1e8a80705c3d3c9ce815ce1a3e7e91aa2677e5b0e7b4419"},
 ]
 outcome-utils = [
-    {file = "outcome-utils-4.17.3.tar.gz", hash = "sha256:97b098c84d0883526c3eb1357a07403b1aa1432dd678bcbf2e5489a5aeb8cb4a"},
-    {file = "outcome_utils-4.17.3-py3-none-any.whl", hash = "sha256:c5876e94ef648683f7316462c8df3b03cb6d4cbc32c467bcdd7ce6c84011731f"},
+    {file = "outcome-utils-4.18.2.tar.gz", hash = "sha256:6b16b28ab30af2c1f94f712960224c32f8c097ec17d4c8fcb9d19f03865d78f5"},
+    {file = "outcome_utils-4.18.2-py3-none-any.whl", hash = "sha256:a9250400495fa46c8c18e8e4ebf01436d0c84d131b9b66e367a2dc65e1a38088"},
 ]
 packaging = [
     {file = "packaging-20.4-py2.py3-none-any.whl", hash = "sha256:998416ba6962ae7fbd6596850b80e17859a5753ba17c32284f67bfff33784181"},
@@ -1848,6 +1860,10 @@ pytest-asyncio = [
 python-dateutil = [
     {file = "python-dateutil-2.8.1.tar.gz", hash = "sha256:73ebfe9dbf22e832286dafa60473e4cd239f8592f699aa5adaf10050e6e1823c"},
     {file = "python_dateutil-2.8.1-py2.py3-none-any.whl", hash = "sha256:75bb3f31ea686f1197762692a9ee6a7550b59fc6ca3a1f4b5d7e32fb98e2da2a"},
+]
+python-dotenv = [
+    {file = "python-dotenv-0.15.0.tar.gz", hash = "sha256:587825ed60b1711daea4832cf37524dfd404325b7db5e25ebe88c495c9f807a0"},
+    {file = "python_dotenv-0.15.0-py2.py3-none-any.whl", hash = "sha256:0c8d1b80d1a1e91717ea7d526178e3882732420b03f08afea0406db6402e220e"},
 ]
 pytzdata = [
     {file = "pytzdata-2020.1-py2.py3-none-any.whl", hash = "sha256:e1e14750bcf95016381e4d472bad004eef710f2d6417240904070b3d6654485f"},
