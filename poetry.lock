@@ -770,11 +770,11 @@ wemake-python-styleguide = ">=0.14.0,<0.15.0"
 
 [[package]]
 name = "outcome-utils"
-version = "4.18.2"
+version = "4.19.0"
 description = "A collection of python utils."
 category = "main"
 optional = false
-python-versions = ">=3.8,<3.9"
+python-versions = ">=3.8.6,<3.9.0"
 
 [package.dependencies]
 asgiref = ">=3.2.10,<4.0.0"
@@ -789,6 +789,9 @@ requests = ">=2.24.0,<3.0.0"
 rich = ">=6.2,<10.0"
 semver = ">=2.10.2,<3.0.0"
 toml = ">=0.10.1,<0.11.0"
+
+[package.extras]
+transaction = ["transaction (>=3.0.0,<4.0.0)"]
 
 [[package]]
 name = "packaging"
@@ -1713,8 +1716,8 @@ outcome-devkit = [
     {file = "outcome_devkit-3.4.7-py3-none-any.whl", hash = "sha256:a90af0b9d02835ff212cd5ed92a581d9e4e3b511bfede0c154ba8af258e0f42f"},
 ]
 outcome-utils = [
-    {file = "outcome-utils-4.18.2.tar.gz", hash = "sha256:6b16b28ab30af2c1f94f712960224c32f8c097ec17d4c8fcb9d19f03865d78f5"},
-    {file = "outcome_utils-4.18.2-py3-none-any.whl", hash = "sha256:a9250400495fa46c8c18e8e4ebf01436d0c84d131b9b66e367a2dc65e1a38088"},
+    {file = "outcome-utils-4.19.0.tar.gz", hash = "sha256:f221f773f6f8173413deaebfeca1e9ec444ea141a3c542c7f3b2054b0cd8fbba"},
+    {file = "outcome_utils-4.19.0-py3-none-any.whl", hash = "sha256:ce9b9c8f0db66360c203c4760dfa682354758860f1709753a83f2c85417984fa"},
 ]
 packaging = [
     {file = "packaging-20.4-py2.py3-none-any.whl", hash = "sha256:998416ba6962ae7fbd6596850b80e17859a5753ba17c32284f67bfff33784181"},
