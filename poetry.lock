@@ -770,7 +770,7 @@ wemake-python-styleguide = ">=0.14.0,<0.15.0"
 
 [[package]]
 name = "outcome-utils"
-version = "4.19.0"
+version = "4.20.1"
 description = "A collection of python utils."
 category = "main"
 optional = false
@@ -791,7 +791,7 @@ semver = ">=2.10.2,<3.0.0"
 toml = ">=0.10.1,<0.11.0"
 
 [package.extras]
-transaction = ["transaction (>=3.0.0,<4.0.0)"]
+transaction = ["transaction (>=3.0.0,<4.0.0)", "zope.interface (>=5.2.0,<6.0.0)"]
 
 [[package]]
 name = "packaging"
@@ -1716,8 +1716,8 @@ outcome-devkit = [
     {file = "outcome_devkit-3.4.9-py3-none-any.whl", hash = "sha256:312d30229f36e8d186c38919f83efe4e1c62e63b8629d8ad0aca4e308acb9a9c"},
 ]
 outcome-utils = [
-    {file = "outcome-utils-4.19.0.tar.gz", hash = "sha256:f221f773f6f8173413deaebfeca1e9ec444ea141a3c542c7f3b2054b0cd8fbba"},
-    {file = "outcome_utils-4.19.0-py3-none-any.whl", hash = "sha256:ce9b9c8f0db66360c203c4760dfa682354758860f1709753a83f2c85417984fa"},
+    {file = "outcome-utils-4.20.1.tar.gz", hash = "sha256:fa3eaa07dad4e109820ec8a1db461e1473e44c988c6ce8013805d292035ae24e"},
+    {file = "outcome_utils-4.20.1-py3-none-any.whl", hash = "sha256:9f2b7bea618f7ff9fa384f53b78d73a4446b0f59e08056be5050f333c2d44fac"},
 ]
 packaging = [
     {file = "packaging-20.4-py2.py3-none-any.whl", hash = "sha256:998416ba6962ae7fbd6596850b80e17859a5753ba17c32284f67bfff33784181"},
