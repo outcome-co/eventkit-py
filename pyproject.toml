@@ -20,7 +20,7 @@ outcome-utils = "^4.16.1"
 pendulum = "^2.1.2"
 
 [tool.poetry.dev-dependencies]
-outcome-devkit = "^3.5.4"
+outcome-devkit = "^3.5.6"
 
 
 [tool.coverage.run]
