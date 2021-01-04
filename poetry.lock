@@ -770,7 +770,7 @@ wemake-python-styleguide = ">=0.14.0,<0.15.0"
 
 [[package]]
 name = "outcome-utils"
-version = "4.20.5"
+version = "4.20.7"
 description = "A collection of python utils."
 category = "main"
 optional = false
@@ -1716,8 +1716,8 @@ outcome-devkit = [
     {file = "outcome_devkit-3.5.7-py3-none-any.whl", hash = "sha256:1f6194a274053de573953aa47a93ba20b97f39eec1450a81f558344c9fc39369"},
 ]
 outcome-utils = [
-    {file = "outcome-utils-4.20.5.tar.gz", hash = "sha256:d45ad40039ca77bb400b54ffa61c6fafea9d74c3e82e77f349821600f88dd155"},
-    {file = "outcome_utils-4.20.5-py3-none-any.whl", hash = "sha256:ffaf2f957e52be4907f15e3b4fa1b9439a624ae311dcf155ef0ea18079267fb0"},
+    {file = "outcome-utils-4.20.7.tar.gz", hash = "sha256:6512ae1e2cf3c62242ac1f0b7885c2125c1677a916bfc6a2835ea497974d415d"},
+    {file = "outcome_utils-4.20.7-py3-none-any.whl", hash = "sha256:fab9730b3ee22bfca679ac24c9727f1c101966ab6c87a715f24d59aaa849830a"},
 ]
 packaging = [
     {file = "packaging-20.4-py2.py3-none-any.whl", hash = "sha256:998416ba6962ae7fbd6596850b80e17859a5753ba17c32284f67bfff33784181"},
