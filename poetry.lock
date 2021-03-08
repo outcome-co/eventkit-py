@@ -957,7 +957,7 @@ pactman = ">=2.28.0,<3.0.0"
 
 [[package]]
 name = "outcome-utils"
-version = "5.0.5"
+version = "5.0.6"
 description = "A collection of python utils."
 category = "main"
 optional = false
@@ -2201,8 +2201,8 @@ outcome-stubs = [
     {file = "outcome_stubs-0.4.1-py3-none-any.whl", hash = "sha256:13d68b0ce21ced87c11629463a67ced67489ae148cc42d7f3db888e1beebe210"},
 ]
 outcome-utils = [
-    {file = "outcome-utils-5.0.5.tar.gz", hash = "sha256:5d05c4409f091e55e601fd61f3d67d3d6365d2bedabd49dc10d71fe410e6f79d"},
-    {file = "outcome_utils-5.0.5-py3-none-any.whl", hash = "sha256:6926c32618c2c28a1882aada75ea8d0682973fcdccf20285256d1730762efcb8"},
+    {file = "outcome-utils-5.0.6.tar.gz", hash = "sha256:5dd2b43caf880c364393f8e0b57bb1a3457b7dc4449ff5e097bf0bb28cd6d34b"},
+    {file = "outcome_utils-5.0.6-py3-none-any.whl", hash = "sha256:d57374c640068d6de12e778d5f33f11bdcf17ce21869f0355be71d650fb98223"},
 ]
 packaging = [
     {file = "packaging-20.9-py2.py3-none-any.whl", hash = "sha256:67714da7f7bc052e064859c05c595155bd1ee9f69f76557e21f051443c20947a"},
